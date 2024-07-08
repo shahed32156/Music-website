@@ -40,13 +40,13 @@ const Navbar = () => {
       </div>
 
             <div className=''>
-                <img className='h-[400px] md:h-[580px] xl:h-[700px] w-full mx-auto opacity-45' src="/Images/c7.webp" alt="Image 1" />
+                <img className='h-[350px] md:h-[580px] xl:h-[700px] w-full mx-auto opacity-45' src="/Images/c7.webp" alt="Image 1" />
             </div>  
                   
            
 
 
-                  <div  className='absolute flex flex-col justify-center left-10 gap-6 top-[150px] sm:top-[180px] md:top-[240px] lg:top-[270px] xl:top-[290px]'>
+                  <div  className='absolute flex flex-col justify-center left-10 gap-6 top-[125px] sm:top-[180px] md:top-[240px] lg:top-[270px] xl:top-[290px]'>
                       <h1 className='font-mono text-[23px] md:text-4xl xl:text-[50px]  text-white'>Feel the real sounds</h1>
                       <h1 className='font-serif text-[16px] md:text-[18px] lg:text-xl xl:w-[500px] text-white'>All the latest and popular songs of <span className='text-[#2cd38b]'>Tanveer Evan</span>, stay tuned with us.</h1>
                       <a href="#songs"><button  className='bg-[#2cd38b] text-[13px] md:text-[16px] py-2 w-[80px] md:w-[100px] hover:shadow-xl hover:shadow-[#2cd38b] rounded-md text-white font-semibold'>Explore</button>  </a>

@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState } from 'react';
-import { FiX } from 'react-icons/fi';
 import T_songs from './T_songs';
 import T_songs2 from './T_songs2';
 import T_songs3 from './T_songs3';
@@ -55,10 +54,10 @@ const Songs = () => {
   return (
     <>
       <div className="text-center mt-20">
-        <h1 id='songs' className="font-mono text-3xl text-[#2cd38b]">Tanveer Evan's Songs</h1>
+        <h1 id='songs' className="font-mono text-3xl text-[#2cd38b]">Tanveer Evan Songs</h1>
         <input
           type="text"
-          placeholder="Search Evan's Songs"
+          placeholder="Search Evan Songs"
           value={search}
           onChange={e => setSearch(e.target.value)}
           className="mt-10 label text-white pl-2 h-[50px] w-[250px] bg-black focus:outline-none rounded-md border border-[#2cd38b]"

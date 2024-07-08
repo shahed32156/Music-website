@@ -59,7 +59,7 @@ const Contact = () => {
 
       Swal.fire({
           title: "Success",
-          text: "Successfully sent your query",
+          text: "Successfully sent",
           icon: "success"
       });
 

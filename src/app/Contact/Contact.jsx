@@ -27,7 +27,11 @@ const Contact = () => {
           Swal.fire({
             title: "Error",
             text: "Invalid name",
-            icon: "error"
+            icon: "error",
+            confirmButtonColor: "#2cd38b",
+            customClass: {
+                popup: 'swal-custom'
+            }
           });
         }
     
@@ -52,16 +56,25 @@ const Contact = () => {
           Swal.fire({
               title: "Error",
               text: "Name must be more than 3 characters",
-              icon: "error"
+              icon: "error",
+              confirmButtonColor: "#2cd38b",
+              customClass: {
+                popup: 'swal-custom'
+            }
           });
           return;
       }
 
       Swal.fire({
-          title: "Success",
-          text: "Successfully sent",
-          icon: "success"
-      });
+        title: "Success",
+        text: "Successfully sent",
+        icon: "success",
+        confirmButtonColor: "#2cd38b",
+        customClass: {
+            popup: 'swal-custom'
+        }
+    });
+    
 
   }
 

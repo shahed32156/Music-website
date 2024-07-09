@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex bg-black top-0 justify-between py-5 px-3 lg:px-10 fixed w-full z-10">
+      <div className="flex navbar top-0 justify-between py-5 px-3 lg:px-10 fixed w-full z-10">
         <div>
           <h1 className="text-white text-2xl font-semibold">Mµ§ï<span className='text-[#2cd38b]'>Èvåñ</span></h1>
         </div>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed top-[60px] bg-opacity-70 bg-black  left-0 h-[300px] w-full z-10 text-white flex flex-col items-center justify-center gap-3 px-3 transform ${
+        className={`fixed top-[70px] navbar   left-0 h-[300px] w-full z-10 text-white flex flex-col items-center justify-center gap-3 px-3 transform ${
           navOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
@@ -44,8 +44,6 @@ const Navbar = () => {
             </div>  
                   
            
-
-
                   <div  className='absolute flex flex-col justify-center left-10 gap-6 top-[125px] sm:top-[180px] md:top-[240px] lg:top-[270px] xl:top-[290px]'>
                       <h1 className='font-mono text-[23px] md:text-4xl xl:text-[50px]  text-white'>Feel the real sounds</h1>
                       <h1 className='font-serif text-[16px] md:text-[18px] lg:text-xl xl:w-[500px] text-white'>All the latest and popular songs of <span className='text-[#2cd38b]'>Tanveer Evan</span>, stay tuned with us.</h1>

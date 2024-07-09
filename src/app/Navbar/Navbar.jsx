@@ -29,7 +29,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className={`fixed top-[70px] navbar   left-0 h-[300px] w-full z-10 text-white flex flex-col items-center justify-center gap-3 px-3 transform ${
+        className={`fixed top-[70px] navbar1 left-0 h-[300px] w-full z-10 text-white flex flex-col items-center justify-center gap-3 px-3 transform ${
           navOpen ? 'translate-x-0' : '-translate-x-full'
         } transition-transform duration-300 ease-in-out md:hidden`}
       >
